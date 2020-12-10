@@ -42,10 +42,10 @@ def sim_activity(cell, position):
     if cell['is_place_cell']:
         random_probability = random.uniform(0, 100)
         if random_probability < calc_probability(cell, position):
-            activity = True
-        else: activity = False
+            activity = 1
+        else: activity = 0
     else:
-        activity = bool(random.getrandbits(1))
+        activity = random.getrandbits(1)
     return activity
 
 
