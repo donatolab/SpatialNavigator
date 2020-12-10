@@ -1,7 +1,7 @@
 # define place cells and set parameters
-cell_1 = {'is_place_cell': True, 'centroid_position': 30, 'size_firing_field': 34, 'reliability': 0.75}
-cell_2 = {'is_place_cell': True, 'centroid_position': 55, 'size_firing_field': 41, 'reliability': 0.55}
-cell_3 = {'is_place_cell': True, 'centroid_position': 110, 'size_firing_field': 25, 'reliability': 0.90}
+cell_1 = {'is_place_cell': True, 'centroid_position': 30, 'size_firing_field': 34, 'reliability': 75}
+cell_2 = {'is_place_cell': True, 'centroid_position': 55, 'size_firing_field': 41, 'reliability': 55}
+cell_3 = {'is_place_cell': True, 'centroid_position': 110, 'size_firing_field': 25, 'reliability': 90}
 
 # define non-place cells
 cell_4 = {'is_place_cell': False}
